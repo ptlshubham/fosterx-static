@@ -1,0 +1,1 @@
+# fosterx-static
