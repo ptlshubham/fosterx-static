@@ -29908,6 +29908,9 @@ button:focus {
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
   }
+  .navbar-expand-sm .navbar-collapse .dropdown-menu .list-unstyled p {
+    color: var(--bs-white);
+  }
   .navbar-expand-sm .navbar-collapse .nav-link,
   .navbar-expand-sm .navbar-collapse .show>.nav-link,
   .navbar-expand-sm .navbar-collapse .nav-link.active,
@@ -30160,6 +30163,9 @@ button:focus {
   .navbar-expand-sm .mega-menu-dark .dropdown-item {
     color: var(--bs-white);
   }
+  .navbar-expand-sm .mega-menu-dark .para {
+    color: var(--bs-white);
+  }
   .navbar-expand-sm .mega-menu-dark .dropdown-item:hover,
   .navbar-expand-sm .mega-menu-dark .dropdown-item:focus {
     color: var(--bs-white);
@@ -30204,6 +30210,9 @@ button:focus {
     padding-left: 1rem;
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
+  }
+  .navbar-expand-md .navbar-collapse .dropdown-menu .para {
+    color: var(--bs-white);
   }
   .navbar-expand-md .navbar-collapse .nav-link,
   .navbar-expand-md .navbar-collapse .show>.nav-link,
@@ -30457,6 +30466,9 @@ button:focus {
   .navbar-expand-md .mega-menu-dark .dropdown-item {
     color: var(--bs-white);
   }
+  .navbar-expand-md .mega-menu-dark .para {
+    color: var(--bs-white);
+  }
   .navbar-expand-md .mega-menu-dark .dropdown-item:hover,
   .navbar-expand-md .mega-menu-dark .dropdown-item:focus {
     color: var(--bs-white);
@@ -30501,6 +30513,9 @@ button:focus {
     padding-left: 1rem;
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
+  }
+  .navbar-expand-lg .navbar-collapse .dropdown-menu .para{
+    color: var(--bs-white);
   }
   .navbar-expand-lg .navbar-collapse .nav-link,
   .navbar-expand-lg .navbar-collapse .show>.nav-link,
@@ -30754,6 +30769,9 @@ button:focus {
   .navbar-expand-lg .mega-menu-dark .dropdown-item {
     color: var(--bs-white);
   }
+  .navbar-expand-lg .mega-menu-dark .para{
+    color: var(--bs-white);
+  }
   .navbar-expand-lg .mega-menu-dark .dropdown-item:hover,
   .navbar-expand-lg .mega-menu-dark .dropdown-item:focus {
     color: var(--bs-white);
@@ -30798,6 +30816,9 @@ button:focus {
     padding-left: 1rem;
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
+  }
+  .navbar-expand-xl .navbar-collapse .dropdown-menu .para{
+    color: var(--bs-white);
   }
   .navbar-expand-xl .navbar-collapse .nav-link,
   .navbar-expand-xl .navbar-collapse .show>.nav-link,
