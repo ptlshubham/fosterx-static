@@ -17,23 +17,22 @@
 
 <body>
   <div class="content-wrapper">
-    <header class="wrapper bg-soft-primary">
+    <header class="wrapper">
       <nav class="navbar navbar-expand-lg classic transparent position-absolute navbar-dark">
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
             <a href="./index.html">
-              <img class="logo-dark" src="./assets/img/dark.png" srcset="./assets/img/dark.png 2x" alt="" />
-              <img class="logo-light" src="./assets/img/light.png" srcset="./assets/img/light.png 2x" alt="" />
+              <img src="./assets/img/logo-dark.png" srcset="./assets/img/logo-dark@2x.png 2x" alt="" />
             </a>
           </div>
           <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
             <div class="offcanvas-header d-lg-none">
-              <h3 class="text-white fs-30 mb-0">Fosterx.</h3>
+              <a href="./index.html"><img src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="" /></a>
               <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
               <ul class="navbar-nav">
-                <li class="nav-item dropdown dropdown-mega"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Platform</a>
+                <li class="nav-item dropdown dropdown-mega"><a class="nav-link dropdown-toggle text-navy" href="#" data-bs-toggle="dropdown">Platform</a>
                   <ul class="dropdown-menu mega-menu">
                     <li class="mega-menu-content">
                       <div class="row gx-0 gx-lg-3">
@@ -43,10 +42,10 @@
                                 <li class="lh-sm"><a class="dropdown-item fs-16" href="./engagement.html"><i class="uil uil-envelope fs-18 px-1"></i>Engagement</a>
                                   <p class="fs-13 mx-8 para">Streamline and scale your customer care and community management.</p>
                                 </li>
-                                <li class="lh-sm"><a class="dropdown-item fs-16" href="./publishing.html"><i class="uil uil-telegram-alt fs-18 px-1"></i>Publishing</a>
+                                <li class="lh-sm"><a class="dropdown-item fs-16" href="#"><i class="uil uil-telegram-alt fs-18 px-1"></i>Publishing</a>
                                 <p class="fs-13 mx-8 para">Effortlessly plan, create, manage and deliver social content and campaigns</p>
                                 </li>
-                                <li class="lh-sm"><a class="dropdown-item fs-16" href="./analytics.html"><i class="uil uil-analytics fs-18 px-1"></i>Analytics</a>
+                                <li class="lh-sm"><a class="dropdown-item fs-16" href="#"><i class="uil uil-analytics fs-18 px-1"></i>Analytics</a>
                                 <p class="fs-13 mx-8 para">Drive strategic decision making across your business</p>
                                 </li>
                                 <li class="lh-sm"><a class="dropdown-item fs-16" href="#"><i class="uil uil-analytics fs-18 px-1"></i>Analytics</a>
@@ -111,7 +110,7 @@
                   <!--/.dropdown-menu -->
                 </li>
                 
-                <li class="nav-item dropdown dropdown-mega"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Solutions</a>
+                <li class="nav-item dropdown dropdown-mega"><a class="nav-link dropdown-toggle text-navy" href="#" data-bs-toggle="dropdown">Solutions</a>
                   <ul class="dropdown-menu mega-menu">
                     <li class="mega-menu-content">
                       <div class="row gx-0 gx-lg-3">
@@ -180,8 +179,8 @@
                   </ul>
                   <!--/.dropdown-menu -->
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
-                <li class="nav-item dropdown dropdown-mega"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Resource</a>
+                <li class="nav-item"><a class="nav-link text-navy" href="#">Pricing</a></li>
+                <li class="nav-item dropdown dropdown-mega"><a class="nav-link dropdown-toggle text-navy" href="#" data-bs-toggle="dropdown">Resource</a>
                   <ul class="dropdown-menu mega-menu">
                     <li class="mega-menu-content">
                       <div class="row gx-0 gx-lg-3">
@@ -283,7 +282,7 @@
           <div class="navbar-other w-100 d-flex ms-auto">
             <ul class="navbar-nav flex-row align-items-center ms-auto">
               <li class="nav-item dropdown language-select ">
-                <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login</a>
+                <a class="nav-link dropdown-item dropdown-toggle text-navy" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login</a>
                 <ul class="dropdown-menu">
                   <li class="nav-item"><a class="dropdown-item" href="#"><i class="uil uil-telegram-alt fs-18 px-1"></i>Sprout Social</a></li>
                   <li class="nav-item"><a class="dropdown-item" href="#"><i class="uil uil-user-circle fs-18 px-1"></i>Employee Advocacy</a></li>
@@ -314,7 +313,8 @@
       <!-- /.navbar -->
     </header>
     <!-- /header -->
-    <section class="wrapper image-wrapper bg-full bg-image bg-overlay bg-overlay-light-600" data-image-src="./assets/img/photos/bg23.png">
+    <!-- data-image-src="./assets/img/photos/bg23.png" -->
+    <section class="wrapper image-wrapper bg-full bg-image bg-overlay bg-overlay-light-600" >
       <div class="container pt-16 pt-md-18 pb-9">
         <div
             class="row gx-lg-8 gx-xl-12 gy-10 align-items-center mb-14 mb-md-18"
@@ -385,10 +385,10 @@
                 ></span
               >
 
-              <h1 class="display-1 mb-5" style="color: aliceblue;">
+              <h1 class="display-1 mb-5">
                 Optimize your customer experience with AI- Powered solutions
               </h1>
-              <p class="lead fs-25 lh-sm mb-7 px-md-10 px-lg-0" style="color: aliceblue;">
+              <p class="lead fs-25 lh-sm mb-7 px-md-10 px-lg-0">
                 We have considered our solutions to support every stage of your
                 growth.
               </p>
