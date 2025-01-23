@@ -10834,8 +10834,8 @@ fieldset:disabled .btn {
   padding-bottom: 4rem !important;
 }
 .py-14 {
-  padding-top: 4.5rem !important;
-  padding-bottom: 4.5rem !important;
+  padding-top :4.5rem !important;
+  padding-bottom:4.5rem !important ;
 }
 .py-15 {
   padding-top: 5rem !important;
@@ -39623,3 +39623,4 @@ footer.bg-dark.angled.upper-start:before {
     position: relative;
   }
 }
+
